@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: loadgenerator
-        image: gcr.io/arun-krm/cymbal-bank/release/loadgenerator:5cdce8e
+        image: gcr.io/arun-krm/cymbal-bank/release/loadgenerator:ea51e42
         env:
         - name: LOG_LEVEL
           value: "info"

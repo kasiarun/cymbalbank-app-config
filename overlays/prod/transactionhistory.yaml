@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: transactionhistory
-        image: gcr.io/arun-krm/cymbal-bank/release/transactionhistory:5cdce8e
+        image: gcr.io/arun-krm/cymbal-bank/release/transactionhistory:ea51e42
         env:
         - name: ENABLE_TRACING
           value: "true"

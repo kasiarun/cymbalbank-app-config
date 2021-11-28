@@ -12,7 +12,7 @@ spec:
     spec: 
       containers:
       - name: front
-        image: gcr.io/arun-krm/cymbal-bank/release/frontend:5cdce8e
+        image: gcr.io/arun-krm/cymbal-bank/release/frontend:ea51e42
         env:
         - name: ENABLE_TRACING
           value: "true"

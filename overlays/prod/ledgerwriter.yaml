@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: ledgerwriter
-        image: gcr.io/arun-krm/cymbal-bank/release/ledgerwriter:5cdce8e
+        image: gcr.io/arun-krm/cymbal-bank/release/ledgerwriter:ea51e42
         env:
         - name: ENABLE_TRACING
           value: "true"
